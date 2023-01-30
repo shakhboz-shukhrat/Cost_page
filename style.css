@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&family=Outfit:wght@300;400;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 800px;
+
+  background: #e6eff5;
+}
+.group5 {
+  position: absolute;
+  width: 635px;
+  height: 475px;
+  left: 403px;
+  top: 163px;
+
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+  border-radius: 8px;
+}
+
+h1 {
+  position: absolute;
+  height: 28px;
+  left: 6.3%;
+  right: 42.68%;
+  top: calc(50% - 28px / 2 - 203.5px);
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  letter-spacing: -0.3px;
+
+  color: #2ab3b1;
+}
+
+.group {
+  position: absolute;
+  left: 6.3%;
+  right: 6.3%;
+  top: 11.95%;
+  bottom: 68.74%;
+}
+
+.p1 {
+  position: absolute;
+  height: 21px;
+  left: 0%;
+  right: 33.87%;
+  top: calc(50% - 21px / 2 - 31.5px);
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: -0.225px;
+
+  color: #c0df33;
+}
+
+.p2 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 38.1%;
+  bottom: 0%;
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  letter-spacing: -0.2px;
+
+  color: #9aa7be;
+}
+
+.group4 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 40.46%;
+  bottom: 0%;
+  background: #2ab3b1;
+}
+
+.p3 {
+  position: absolute;
+  height: 21px;
+  left: 6.3%;
+  right: 65.04%;
+  top: calc(50% - 21px / 2 - 79px);
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: -0.225px;
+
+  color: #ffffff;
+}
+
+.cost {
+  position: absolute;
+  left: 6.3%;
+  right: 70.55%;
+  top: 30.5%;
+  bottom: 55.21%;
+}
+
+.number {
+  position: absolute;
+  height: 37px;
+  left: 0%;
+  right: 58.5%;
+  top: calc(50% - 37px / 2);
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: -0.4px;
+
+  color: #ffffff;
+}
+
+.p4 {
+  position: absolute;
+  height: 26px;
+  left: 48.98%;
+  right: 0%;
+  top: calc(50% - 26px / 2 + 0.5px);
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  letter-spacing: -0.2px;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.p5 {
+  position: absolute;
+  left: 6.3%;
+  right: 56.22%;
+  top: 46.33%;
+  bottom: 43.63%;
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  letter-spacing: -0.2px;
+
+  color: #ffffff;
+}
+
+.button {
+  background: #c0df33;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+  border-radius: 5px;
+  position: absolute;
+  left: 6.3%;
+  right: 56.38%;
+  top: 66.41%;
+  bottom: 15.06%;
+}
+
+.p6 {
+  position: absolute;
+  height: 19px;
+  left: 37.55%;
+  right: 37.55%;
+  top: calc(50% - 19px / 2 + 0.5px);
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: -0.2px;
+
+  color: #ffffff;
+}
+
+.rec {
+  background: #4bbfbe;
+  position: absolute;
+  left: 49.92%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  mix-blend-mode: normal;
+}
+
+.p9 {
+  position: absolute;
+  height: 21px;
+  left: 40px;
+  right: 33.7%;
+  top: calc(50% - 21px / 2 - 79px);
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: -0.225px;
+
+  color: #ffffff !important;
+}
+
+.p10 {
+  position: absolute;
+  left: 40px;
+  right: 6.3%;
+  top: 30.5%;
+  bottom: 15.44%;
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  letter-spacing: -0.175px;
+
+  color: #fff !important;
+
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
